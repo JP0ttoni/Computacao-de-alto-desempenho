@@ -1,12 +1,3 @@
-/*
- * matmul_blocked.c — versão compatível com MinGW antigo (GCC 6.x)
- *
- * Ajustes:
- *  - aligned_alloc substituído por _aligned_malloc (Windows)
- *  - free substituído por _aligned_free
- *  - inclusão de <malloc.h>
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
